@@ -47,10 +47,14 @@ table {
 
 /* Styling CSS below */
 
+@import url('../fonts/Sen/static/Sen-Regular.ttf');
+@import url('../fonts/Sen/static/Sen-Bold.ttf');
+
 body {
 	font-size: 16px;
-	line-height: 1;
+	line-height: 1.3;
     background-color: #F5F5F5;
+	font-family: 'Sen', sans-serif;
 }
 
 header {
@@ -91,9 +95,13 @@ h1 {
 	transition: box-shadow 2s;
 }
 
-#img-and-about-me {
+#img-and-info {
 	display: flex;
 	margin-top: 2%;
+}
+
+#information {
+	max-width: 600px;
 }
 
 #boat-img-section {
