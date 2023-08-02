@@ -73,3 +73,16 @@ header div {
 #nav-header li {
 	margin-right: 14px;
 }
+
+#boat-img {
+	width: 500px;
+	height: auto;
+	margin-left: 3%;
+	margin-top: 2%;
+	box-shadow: 5px 5px 5px black ;
+}
+
+#boat-img:hover {
+	box-shadow: none;
+	transition: box-shadow 2s;
+}
