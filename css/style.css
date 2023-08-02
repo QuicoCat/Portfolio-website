@@ -48,6 +48,7 @@ table {
 /* Styling CSS below */
 
 body {
+	font-size: 16px;
 	line-height: 1;
     background-color: #F5F5F5;
 }
@@ -65,6 +66,9 @@ header div {
     align-items: center;
 }
 
+h1 {
+	font-size: 20px;
+}
 
 #nav-header ul {
     display: flex;
@@ -78,11 +82,24 @@ header div {
 	width: 500px;
 	height: auto;
 	margin-left: 3%;
-	margin-top: 2%;
 	box-shadow: 5px 5px 5px black ;
+	transition: box-shadow 2s;
 }
 
 #boat-img:hover {
 	box-shadow: none;
 	transition: box-shadow 2s;
+}
+
+#img-and-about-me {
+	display: flex;
+	margin-top: 2%;
+}
+
+#boat-img-section {
+	margin-right: 2%;
+}
+
+#about-me-description {
+	margin-top: 2%
 }
