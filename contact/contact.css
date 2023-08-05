@@ -72,7 +72,7 @@ header div {
     display: inline-flex;
     justify-content: space-between;
     width: 98%;
-    margin: 1%;
+    margin: 15px;
     align-items: center;
 }
 
@@ -92,4 +92,32 @@ header div {
 .nav-links:hover {
 	text-decoration: 2px underline black;
 	cursor: pointer;
+}
+
+#contact-section {
+    display: flex;
+}
+
+#contact-text {
+    text-align: center;
+    width: 50%;
+    align-self: center;
+}
+
+#contact-text h1 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#contact-text a {
+    color: black;
+}
+
+#image-section {
+    width: 50%;
+}
+
+#contact-image {
+    width: 100%;
+    height: auto;
 }
