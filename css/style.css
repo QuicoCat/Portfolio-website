@@ -84,7 +84,7 @@ header div {
 #boat-img {
 	max-width: 100%;
 	margin-left: 3%;
-	box-shadow: 5px 5px 5px black ;
+	box-shadow: 5px 5px black ;
 	transition: box-shadow 2s;
 }
 
@@ -99,15 +99,15 @@ header div {
 	margin-top: 2%;
 }
 
+#boat-img-section {
+	max-width: 40%;
+	margin-right: 40px;
+}
+
 #information {
 	margin-right: 1%;
 	padding-left: 1%;
 	border-left: 1px solid rgba(0, 0, 0, 0.473);
-}
-
-#boat-img-section {
-	max-width: 40%;
-	margin-right: 40px;
 }
 
 #information h2 {
@@ -132,16 +132,18 @@ header div {
 }
 
 .project-button {
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(48, 48, 54);
 	width: 60px;
 	height: 30px;
-	border: 1px solid black;
-	box-shadow: 1px 1px 1px black;
+	border: none;
+	margin: 1% 0;
+	color: white;
 }
 
 .project-button:hover {
 	cursor: pointer;
-	box-shadow: none;
+	background-color: aliceblue;
+	color: black;
 }
 
 .features-list li {
