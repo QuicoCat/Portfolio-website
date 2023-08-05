@@ -13,3 +13,4 @@ buttonOpener(firstButton, './fictional-club/fictional-club.html');
 buttonOpener(secondButton, 'https://github.com/QuicoCat/message_generator');
 buttonOpener(thirdButton, 'https://github.com/QuicoCat/JavascriptCodecademy/blob/main/crediccardchecker.js');
 buttonOpener(fourthButton, 'https://github.com/QuicoCat/JavascriptCodecademy/blob/main/mysteriousorganismchallenge.js');
+
