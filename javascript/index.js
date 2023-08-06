@@ -1,3 +1,5 @@
+//Random joke project --------------------------------------------------------------------------------------------
+
 const buttonOpener = (button, link) => {
     let firstButton = document.getElementById("first-button");
     let secondButton = document.getElementById("second-button");
@@ -82,3 +84,7 @@ document.getElementById('first-test-button').addEventListener ('click', function
     let jokeLine = document.getElementById('joke');
     jokeLine.innerHTML = jokeText;
 });
+
+document.getElementById('photography-club-preview').addEventListener('click', function() {
+    window.open('../fictional-club/fictional-club.html')
+})

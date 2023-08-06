@@ -95,14 +95,13 @@ header div {
 }
 
 #boat-img-section {
-	max-width: 50%;
-	margin-right: 40px;
+	max-width: 40%;
 }
 
 #boat-img {
-	max-width: 700px;
-	height: auto;
-	margin-left: 3%;
+	max-height: 1000px;
+    max-width: 96%;
+	margin-left: 1%;
 	box-shadow: 5px 5px black ;
 	transition: box-shadow 2s;
 }
@@ -119,7 +118,7 @@ header div {
 }
 
 #information {
-	width: 50%;
+	max-width: 50%;
 	margin-right: 1%;
 	padding-left: 1%;
 	border-left: 1px solid rgba(0, 0, 0, 0.473);
@@ -140,6 +139,28 @@ header div {
 
 #projects h2 {
 	margin-top: 2%;
+}
+
+#photography-club {
+	display: flex;
+}
+
+#html-css-projects {
+	width: 130%;
+}
+
+#photography-club-description {
+	width: 100%;
+	margin-right: 1%;
+}
+
+#photography-club-preview {
+	width: 100%;
+}
+
+#photography-club-preview:hover {
+	cursor: pointer;
+	box-shadow: 2px 2px 2px rgb(107, 181, 204);
 }
 
 .project-title {
@@ -184,6 +205,7 @@ header div {
 }
 
 #joke {
+	font-size: 17px;
 	font-weight: 400;
 	font-style: italic;
 }
@@ -221,4 +243,8 @@ footer a:hover {
 	cursor: pointer;
 	background-color: #F5F5F5;
 	border: 1px solid black;
+}
+
+@media only screen and (max-width: 480px) {
+	
 }
