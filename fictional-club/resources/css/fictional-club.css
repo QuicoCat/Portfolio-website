@@ -117,23 +117,6 @@ header h1 {
     margin-top: 1%;
 }
 
-@media only screen and (max-width: 425px) {
-
-    header{
-        text-align: center;
-        margin: 0;
-    }
-
-    #first-section, #second-section {
-        width: 100%;
-        padding: 2% 0 2% 0;
-    }
-
-    #first-section h3, #second-section h3 {
-        padding: 0 2% 0 2%;
-    }
-}
-
 #categories-header {
     text-align: center;
     margin-top: 4%;
@@ -156,7 +139,22 @@ header h1 {
     padding: 1% 0% 2% 2%;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 480px) {
+
+    header {
+        text-align: center;
+        margin: 0;
+    }
+
+    #first-section, #second-section {
+        width: 100%;
+        padding: 2% 0 2% 0;
+    }
+
+    #first-section h3, #second-section h3 {
+        padding: 0 2% 0 2%;
+    }
+
     #photo-categories {
         flex-direction: column;
         width: 100%;
