@@ -79,5 +79,6 @@ const randomJoke = () => {
 
 document.getElementById('first-test-button').addEventListener ('click', function() {
     let jokeText = randomJoke();
-    document.getElementById('joke').innerHTML = jokeText;
+    let jokeLine = document.getElementById('joke');
+    jokeLine.innerHTML = jokeText;
 });
