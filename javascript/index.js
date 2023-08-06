@@ -86,7 +86,7 @@ document.getElementById('first-test-button').addEventListener ('click', function
 });
 
 document.getElementById('photography-club-preview').addEventListener('click', function() {
-    window.open('../fictional-club/fictional-club.html')
+    window.open('./fictional-club/fictional-club.html');
 });
 
 document.getElementById('hamburguer-anchor').addEventListener('click', function() {
