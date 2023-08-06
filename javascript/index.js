@@ -91,9 +91,10 @@ document.getElementById('photography-club-preview').addEventListener('click', fu
 
 document.getElementById('hamburguer-anchor').addEventListener('click', function() {
     let navHeader = document.getElementById('nav-header');
-    if (navHeader.style.display === 'none') {
-        navHeader.style.display = 'flex';
-    } else if (navHeader.style.display === 'flex') {
+    if (navHeader.style.display === 'flex') {
         navHeader.style.display = 'none';
+    } else {
+        navHeader.style.display = 'flex';
     }
-});
+    }
+);

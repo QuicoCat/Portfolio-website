@@ -73,19 +73,17 @@ body {
 
 header {
     border-bottom: black solid 1px;
-	width: auto;
-}
-
-header div {
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
-    width: 98%;
-    margin: 15px;
+    width: 100%;
+	padding: 10px;
     align-items: center;
 }
 
+
 #nav-header {
     display: flex;
+	margin-right: 10px;
 }
 
 #nav-header a {
@@ -255,8 +253,32 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 480px) {
+
+	header {
+		display: flex;
+	}
+
+	#menu-options {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#nav-header {
+		display: none;
+		flex-direction: column;
+	}
+
+	#hamburguer-menu {
+		display: block;
+		width: 50px;
+		height: auto;
+		margin-right: 15px;
+		float: right;
+	}
+
 	#img-and-info {
 		flex-direction: column;
+		margin-top: 0;
 	}
 
 	#boat-img-section {
@@ -290,15 +312,7 @@ footer a:hover {
 		margin-top: 1%;
 	}
 
-	#nav-header {
-		flex-direction: column;
-		display: none;
-	}
-
-	#hamburguer-menu {
-		display: block;
-		width: 50px;
-		height: auto;
-		margin-right: 15px;
+	#photography-club-preview:hover {
+		box-shadow: none;
 	}
 }
