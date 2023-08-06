@@ -226,7 +226,8 @@ header div {
 }
 
 footer {
-    margin-top: auto;
+	font-size: 12px;
+    margin-top: 5%;
 	margin-left: 1%;
 	margin-bottom: 10px;
 }
@@ -246,5 +247,50 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 480px) {
-	
+	#img-and-info {
+		flex-direction: column;
+	}
+
+	#boat-img-section {
+		max-width: 100%;
+	}
+
+	#boat-img {
+		box-shadow: none;
+		max-width: 100%;
+		margin-left: 0;
+	}
+
+	#information {
+		max-width: 100%;
+		text-align: center;
+	}
+
+	#projects {
+		max-width: 100%;
+	}
+
+	#html-css-projects {
+		width: 100%;
+	}
+
+	#photography-club {
+		flex-direction: column;
+	}
+
+	#photography-club-preview {
+		margin-top: 1%;
+	}
+
+	#nav-header {
+		flex-direction: column;
+		display: none;
+	}
+
+	#hamburguer-menu {
+		display: block;
+		width: 50px;
+		height: auto;
+		margin-right: 15px;
+	}
 }

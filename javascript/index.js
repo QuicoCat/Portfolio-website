@@ -87,4 +87,13 @@ document.getElementById('first-test-button').addEventListener ('click', function
 
 document.getElementById('photography-club-preview').addEventListener('click', function() {
     window.open('../fictional-club/fictional-club.html')
-})
+});
+
+document.getElementById('hamburguer-anchor').addEventListener('click', function() {
+    let navHeader = document.getElementById('nav-header');
+    if (navHeader.style.display === 'none') {
+        navHeader.style.display = 'flex';
+    } else if (navHeader.style.display === 'flex') {
+        navHeader.style.display = 'none';
+    }
+});
