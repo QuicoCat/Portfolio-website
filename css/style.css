@@ -53,6 +53,14 @@ table {
 @import url('../fonts/Space_Grotesk/static/SpaceGrotesk-Regular.ttf');
 @import url('../fonts/Space_Grotesk/static/SpaceGrotesk-SemiBold.ttf');
 
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 body {
 	font-size: 16px;
 	line-height: 1.3;
