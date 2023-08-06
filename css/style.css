@@ -168,6 +168,26 @@ header div {
 	margin-bottom: 5px;
 }
 
+.test-button {
+	background-color: rgb(110, 106, 106);
+	width: 60px;
+	height: 30px;
+	border: none;
+	margin: 1% 0;
+	color: white;
+}
+
+.test-button:hover {
+	cursor: pointer;
+	background-color: rgb(121, 165, 204);
+	color: black;
+}
+
+#joke {
+	font-weight: 400;
+	font-style: italic;
+}
+
 .features-list li {
 	list-style: square inside;
 }
