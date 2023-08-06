@@ -69,6 +69,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 header h1 {
@@ -76,6 +77,9 @@ header h1 {
     font-weight: 500;
 }
 
+#return {
+    margin-top: 10px;
+}
 
 #first-section {
     background-color: rgb(168, 205, 238);
